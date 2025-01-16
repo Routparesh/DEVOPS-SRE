@@ -1,0 +1,95 @@
+# Terraform Hands-On Task: Provision a Basic Resource
+
+## Goal:
+
+Create a Terraform configuration to provision a basic resource in a cloud provider (AWS).
+
+---
+
+## Step-by-Step Instructions:
+
+### 1. **Install Terraform:**
+
+- Download Terraform from the official [Terraform Downloads](https://www.terraform.io/downloads).
+- Add Terraform to your system’s PATH.
+- Verify installation by running the following command:
+  ```bash
+  terraform version
+  ```
+  This should display the installed version of Terraform.
+
+### 2. **Create a Terraform File:**
+
+Create a `main.tf` file with the following content:
+
+terraform {
+required_providers {
+aws = {
+source = "hashicorp/aws"
+version = "~> 5.0"
+}
+}
+}
+
+provider "aws" {
+region = "us-east-1"
+}
+
+resource "aws_s3_bucket" "my_bucket" {
+bucket = "terraform-basics-bucket8694"
+
+tags = {
+Name = "my_bucket"
+Environment = "Dev"
+}
+
+}
+
+- This configuration will create a private S3 bucket named `terraform-basics-bucket`.
+
+### 3. **Initialize Terraform:**
+
+- Open your terminal and run:
+
+  terraform init
+
+  This command initializes your working directory and downloads the AWS provider.
+
+### 4. **Plan and Apply:**
+
+- Run the following command to preview the changes Terraform will make:
+
+  ```bash
+  terraform plan
+  ```
+
+- After confirming that the plan looks correct, apply the changes to create the resources:
+
+  ```bash
+  terraform apply
+  ```
+
+- When prompted, confirm the creation by typing `yes`.
+
+### 5. **Verify the Resource:**
+
+- Log in to the AWS Console and navigate to the S3 section.
+- Verify that the `terraform-basics-bucket` has been created.
+
+### 6. **Clean Up:**
+
+- After verifying the resource, run the following command to destroy all resources created by Terraform:
+  ```bash
+  terraform destroy
+  ```
+- Confirm the prompt by typing `yes` to remove the resources.
+
+Terraform Workflow:
+
+init: Initializes the working directory and downloads the necessary provider plugins.
+
+plan: Creates an execution plan, showing what actions Terraform will take to achieve the desired state.
+
+apply: Executes the planned changes, provisioning the resources defined in the configuration.
+
+## destroy: Removes all the resources that were created, cleaning up the environment.
