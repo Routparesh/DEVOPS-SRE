@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1737200536,,"wq"
+|2,0,1737206266,,"wq"
 :q
-|2,0,1737110228,,"q"
+|2,0,1737206261,,"q"
 
 # Search String History (newest to oldest):
 
@@ -27,36 +27,78 @@
 # Registers:
 
 # File marks:
-'0  21  0  ~/my-node-app/Dockerfile
-|4,48,21,0,1737200536,"~/my-node-app/Dockerfile"
-'1  12  0  ~/my-node-app/package.json
-|4,49,12,0,1737200461,"~/my-node-app/package.json"
-'2  12  34  ~/my-node-app/app.js
-|4,50,12,34,1737200393,"~/my-node-app/app.js"
-'3  7  24  ~/composetest/compose.yaml
-|4,51,7,24,1737176300,"~/composetest/compose.yaml"
-'4  11  30  ~/composetest/Dockerfile
-|4,52,11,30,1737176166,"~/composetest/Dockerfile"
-'5  2  4  ~/composetest/requirements.txt
-|4,53,2,4,1737176104,"~/composetest/requirements.txt"
-'6  23  59  ~/composetest/app.py
-|4,54,23,59,1737175976,"~/composetest/app.py"
-'7  6  39  ~/images/waso/Dockerfile
-|4,55,6,39,1737170397,"~/images/waso/Dockerfile"
-'8  11  30  ~/images/waso/Dockerfile
-|4,56,11,30,1737169762,"~/images/waso/Dockerfile"
-'9  11  30  ~/images/waso/Dockerfile
-|4,57,11,30,1737169762,"~/images/waso/Dockerfile"
+'0  1  0  ~/.ssh/authorized_keys
+|4,48,1,0,1737206266,"~/.ssh/authorized_keys"
+'1  1  0  ~/.ssh/docker
+|4,49,1,0,1737206067,"~/.ssh/docker"
+'2  21  0  ~/my-node-app/Dockerfile
+|4,50,21,0,1737200536,"~/my-node-app/Dockerfile"
+'3  12  0  ~/my-node-app/package.json
+|4,51,12,0,1737200461,"~/my-node-app/package.json"
+'4  12  34  ~/my-node-app/app.js
+|4,52,12,34,1737200393,"~/my-node-app/app.js"
+'5  7  24  ~/composetest/compose.yaml
+|4,53,7,24,1737176300,"~/composetest/compose.yaml"
+'6  11  30  ~/composetest/Dockerfile
+|4,54,11,30,1737176166,"~/composetest/Dockerfile"
+'7  2  4  ~/composetest/requirements.txt
+|4,55,2,4,1737176104,"~/composetest/requirements.txt"
+'8  23  59  ~/composetest/app.py
+|4,56,23,59,1737175976,"~/composetest/app.py"
+'9  6  39  ~/images/waso/Dockerfile
+|4,57,6,39,1737170397,"~/images/waso/Dockerfile"
 
 # Jumplist (newest first):
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1737206266,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/docker
+|4,39,1,0,1737206067,"~/.ssh/docker"
+-'  1  0  ~/.ssh/docker
+|4,39,1,0,1737206067,"~/.ssh/docker"
 -'  21  0  ~/my-node-app/Dockerfile
 |4,39,21,0,1737200536,"~/my-node-app/Dockerfile"
+-'  21  0  ~/my-node-app/Dockerfile
+|4,39,21,0,1737200536,"~/my-node-app/Dockerfile"
+-'  21  0  ~/my-node-app/Dockerfile
+|4,39,21,0,1737200536,"~/my-node-app/Dockerfile"
+-'  21  0  ~/my-node-app/Dockerfile
+|4,39,21,0,1737200536,"~/my-node-app/Dockerfile"
+-'  1  0  ~/my-node-app/Dockerfile
+|4,39,1,0,1737200497,"~/my-node-app/Dockerfile"
+-'  1  0  ~/my-node-app/Dockerfile
+|4,39,1,0,1737200497,"~/my-node-app/Dockerfile"
+-'  1  0  ~/my-node-app/Dockerfile
+|4,39,1,0,1737200497,"~/my-node-app/Dockerfile"
 -'  1  0  ~/my-node-app/Dockerfile
 |4,39,1,0,1737200497,"~/my-node-app/Dockerfile"
 -'  12  0  ~/my-node-app/package.json
 |4,39,12,0,1737200461,"~/my-node-app/package.json"
 -'  12  0  ~/my-node-app/package.json
 |4,39,12,0,1737200461,"~/my-node-app/package.json"
+-'  12  0  ~/my-node-app/package.json
+|4,39,12,0,1737200461,"~/my-node-app/package.json"
+-'  12  0  ~/my-node-app/package.json
+|4,39,12,0,1737200461,"~/my-node-app/package.json"
+-'  12  0  ~/my-node-app/package.json
+|4,39,12,0,1737200461,"~/my-node-app/package.json"
+-'  12  0  ~/my-node-app/package.json
+|4,39,12,0,1737200461,"~/my-node-app/package.json"
+-'  12  0  ~/my-node-app/package.json
+|4,39,12,0,1737200461,"~/my-node-app/package.json"
+-'  12  0  ~/my-node-app/package.json
+|4,39,12,0,1737200461,"~/my-node-app/package.json"
+-'  1  0  ~/my-node-app/package.json
+|4,39,1,0,1737200422,"~/my-node-app/package.json"
+-'  1  0  ~/my-node-app/package.json
+|4,39,1,0,1737200422,"~/my-node-app/package.json"
+-'  1  0  ~/my-node-app/package.json
+|4,39,1,0,1737200422,"~/my-node-app/package.json"
+-'  1  0  ~/my-node-app/package.json
+|4,39,1,0,1737200422,"~/my-node-app/package.json"
+-'  1  0  ~/my-node-app/package.json
+|4,39,1,0,1737200422,"~/my-node-app/package.json"
+-'  1  0  ~/my-node-app/package.json
+|4,39,1,0,1737200422,"~/my-node-app/package.json"
 -'  1  0  ~/my-node-app/package.json
 |4,39,1,0,1737200422,"~/my-node-app/package.json"
 -'  1  0  ~/my-node-app/package.json
@@ -69,6 +111,54 @@
 |4,39,12,34,1737200393,"~/my-node-app/app.js"
 -'  12  34  ~/my-node-app/app.js
 |4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  12  34  ~/my-node-app/app.js
+|4,39,12,34,1737200393,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
+-'  1  0  ~/my-node-app/app.js
+|4,39,1,0,1737200329,"~/my-node-app/app.js"
 -'  1  0  ~/my-node-app/app.js
 |4,39,1,0,1737200329,"~/my-node-app/app.js"
 -'  1  0  ~/my-node-app/app.js
@@ -93,6 +183,54 @@
 |4,39,7,24,1737176300,"~/composetest/compose.yaml"
 -'  7  24  ~/composetest/compose.yaml
 |4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
+-'  7  24  ~/composetest/compose.yaml
+|4,39,7,24,1737176300,"~/composetest/compose.yaml"
 -'  1  0  ~/composetest/compose.yaml
 |4,39,1,0,1737176206,"~/composetest/compose.yaml"
 -'  1  0  ~/composetest/compose.yaml
@@ -109,148 +247,25 @@
 |4,39,1,0,1737176206,"~/composetest/compose.yaml"
 -'  1  0  ~/composetest/compose.yaml
 |4,39,1,0,1737176206,"~/composetest/compose.yaml"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  11  30  ~/composetest/Dockerfile
-|4,39,11,30,1737176166,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  1  0  ~/composetest/Dockerfile
-|4,39,1,0,1737176133,"~/composetest/Dockerfile"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  2  4  ~/composetest/requirements.txt
-|4,39,2,4,1737176104,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1737176084,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1737176084,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1737176084,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1737176084,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1737176084,"~/composetest/requirements.txt"
--'  1  0  ~/composetest/requirements.txt
-|4,39,1,0,1737176084,"~/composetest/requirements.txt"
+-'  1  0  ~/composetest/compose.yaml
+|4,39,1,0,1737176206,"~/composetest/compose.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.ssh/authorized_keys
+	*	1737206261	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	1
+	+	1	0
+
+> ~/.ssh/docker
+	*	1737206065	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
 
 > ~/my-node-app/Dockerfile
 	*	1737200533	0

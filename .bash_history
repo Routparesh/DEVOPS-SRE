@@ -698,3 +698,28 @@ docker rmi  composetest-web-1
 docker ps -a
 docker rm composetest-redis-1
 docker ps -a
+docker version
+docker ps
+ls
+cd images
+ls
+cd waso
+ls
+cd Dockerfile
+cat Dockerfile
+docker login
+docker pull routparesh/wasoimg
+docker pull
+docker ps
+docker ps -a
+docker run --name myweb -d docker pull routparesh/wasoimg:v2
+docker ps
+docker ps -a
+docker logs myweb
+docker run --name myweb -d 9080:80 docker pull routparesh/wasoimg:v2
+docker run --name myweb -d -p 9080:80 routparesh/wasoimg:v2
+docker ps -a
+docker rm fae576804d33
+docker rmi myweb
+docker run --name myweb -d -p 9080:80 routparesh/wasoimg:v2
+docker ps
