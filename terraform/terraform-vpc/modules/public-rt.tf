@@ -1,6 +1,6 @@
 # Create a route table for the public subnets
 resource "aws_route_table" "public_rt" {
-  vpc_id = module.vpc.vpc_id
+  vpc_id = module.vpc.vpc_id.id
 
   tags = {
     Name = "public-route-table"
@@ -11,7 +11,7 @@ resource "aws_route_table" "public_rt" {
 resource "aws_route" "public_internet_route" {
   route_table_id         = aws_route_table.public_rt.id
   destination_cidr_block = "0.0.0.0/0"
-  gateway_id             = aws_internet_gateway.gw.id
+  gateway_id             = module.vpc.igw_id.id
 }
 
 # Associate the route table with the public subnet

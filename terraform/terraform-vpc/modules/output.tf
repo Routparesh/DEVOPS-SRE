@@ -13,5 +13,5 @@ output "private_subnet_ids" {
 }
 
 output "internet_gateway_id" {
-  value = module.vpc.internet_gateway_id  # Correct reference for the Internet Gateway ID
+  value = module.vpc.igw_id  # Correct reference for the Internet Gateway ID
 }

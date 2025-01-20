@@ -1,6 +1,6 @@
 
 variable "region" {
-  default = "us-east-1"
+  default = "us-west-1"
 }
 
 
@@ -9,7 +9,7 @@ variable "vpc_cidr" {
 }
 
 variable "azs" {
-  default = ["us-east-1a"]
+  default = ["us-west-1a"]
 }
 
 variable "private_subnets" {
